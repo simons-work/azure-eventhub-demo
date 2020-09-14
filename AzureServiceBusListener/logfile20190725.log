@@ -1,0 +1,1120 @@
+2019-07-25 22:28:54.451 +01:00 [DBG] Received message: SequenceNumber:8
+2019-07-25 22:28:54.500 +01:00 [DBG] 
+2019-07-25 22:28:54.501 +01:00 [DBG] Message Body:
+2019-07-25 22:28:54.559 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"0392b373-0914-491a-9862-128d9424db48\"}},\"EntityBody\":{\"TaskId\":386,\"StatusId\":3,\"SHMessageReferenceId\":null,\"Status\":\"In Progress\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿jhgukjg\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T08:58:30.3445891Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:28:54.562 +01:00 [DBG] 
+2019-07-25 22:28:54.562 +01:00 [DBG] Inner Message body:
+2019-07-25 22:28:54.639 +01:00 [DBG] {
+  "TaskId": 386,
+  "StatusId": 3,
+  "Status": "In Progress",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿jhgukjg",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T08:58:30.3445891Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:28:54.640 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:28:54.641 +01:00 [DBG] 
+2019-07-25 22:28:54.641 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:28:56.065 +01:00 [DBG] Received message: SequenceNumber:9
+2019-07-25 22:28:56.067 +01:00 [DBG] 
+2019-07-25 22:28:56.068 +01:00 [DBG] Message Body:
+2019-07-25 22:28:56.069 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"8b1bb0aa-c7fd-4931-b6d6-4f69416889f5\"}},\"EntityBody\":{\"TaskId\":386,\"StatusId\":4,\"SHMessageReferenceId\":null,\"Status\":\"Request For Info\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">The below highlighted\\r\\n&nbsp;issue is caused due to Email app which was not configured in UAT\\r\\ncorrectly. We have updated the settings and also switched off the emails.</font></span></p>\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">&nbsp;</font></span></p>\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">Please verify and feedback.</font></span></p>\\r\\n\\r\\n\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T08:58:59.1003423Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:28:56.073 +01:00 [DBG] 
+2019-07-25 22:28:56.074 +01:00 [DBG] Inner Message body:
+2019-07-25 22:28:56.076 +01:00 [DBG] {
+  "TaskId": 386,
+  "StatusId": 4,
+  "Status": "Request For Info",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">The below highlighted\r\n&nbsp;issue is caused due to Email app which was not configured in UAT\r\ncorrectly. We have updated the settings and also switched off the emails.</font></span></p>\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">&nbsp;</font></span></p>\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">Please verify and feedback.</font></span></p>\r\n\r\n",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T08:58:59.1003423Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:28:56.080 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:28:56.081 +01:00 [DBG] 
+2019-07-25 22:28:56.082 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:47.606 +01:00 [DBG] Received message: SequenceNumber:10
+2019-07-25 22:29:47.606 +01:00 [DBG] 
+2019-07-25 22:29:47.607 +01:00 [DBG] Message Body:
+2019-07-25 22:29:47.608 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"840a9b42-5247-4948-aa21-0f388aa5f4ae\"}},\"EntityBody\":{\"TaskId\":386,\"StatusId\":3,\"SHMessageReferenceId\":null,\"Status\":\"In Progress\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":\"Reason 2\",\"Comments\":\"﻿aswetrewt\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T09:02:48.7926494Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:47.612 +01:00 [DBG] 
+2019-07-25 22:29:47.613 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:47.614 +01:00 [DBG] {
+  "TaskId": 386,
+  "StatusId": 3,
+  "Status": "In Progress",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": "Reason 2",
+  "Comments": "﻿aswetrewt",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T09:02:48.7926494Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:47.617 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:47.618 +01:00 [DBG] 
+2019-07-25 22:29:47.619 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:47.710 +01:00 [DBG] Received message: SequenceNumber:11
+2019-07-25 22:29:47.712 +01:00 [DBG] 
+2019-07-25 22:29:47.713 +01:00 [DBG] Message Body:
+2019-07-25 22:29:47.714 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"3970b5bf-c171-4c6a-9e83-26b620dbf2f2\"}},\"EntityBody\":{\"TaskId\":386,\"StatusId\":4,\"SHMessageReferenceId\":null,\"Status\":\"Request For Info\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">The below highlighted\\r\\n&nbsp;issue is caused due to Email app which was not configured in UAT\\r\\ncorrectly. We have updated the settings and also switched off the emails.</font></span></p>\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">&nbsp;</font></span></p>\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">Please verify and feedback.</font></span></p>\\r\\n\\r\\n\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T09:03:04.0066999Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:47.717 +01:00 [DBG] 
+2019-07-25 22:29:47.718 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:47.721 +01:00 [DBG] {
+  "TaskId": 386,
+  "StatusId": 4,
+  "Status": "Request For Info",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">The below highlighted\r\n&nbsp;issue is caused due to Email app which was not configured in UAT\r\ncorrectly. We have updated the settings and also switched off the emails.</font></span></p>\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">&nbsp;</font></span></p>\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">Please verify and feedback.</font></span></p>\r\n\r\n",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T09:03:04.0066999Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:47.726 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:47.728 +01:00 [DBG] 
+2019-07-25 22:29:47.729 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:47.909 +01:00 [DBG] Received message: SequenceNumber:12
+2019-07-25 22:29:47.911 +01:00 [DBG] 
+2019-07-25 22:29:47.912 +01:00 [DBG] Message Body:
+2019-07-25 22:29:47.913 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"4285865e-c7d4-40d6-95e6-9677797e90c7\"}},\"EntityBody\":{\"TaskId\":439,\"StatusId\":1,\"SHMessageReferenceId\":null,\"Status\":\"Unassigned\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿testing\",\"StatusChangedBy\":null,\"StatusChangedOn\":\"2019-07-18T09:04:35.371991Z\",\"AdditionalDetails\":{\"Field1\":null,\"Field2\":null,\"Field3\":null,\"Field4\":null}}"
+2019-07-25 22:29:47.917 +01:00 [DBG] 
+2019-07-25 22:29:47.917 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:47.918 +01:00 [DBG] {
+  "TaskId": 439,
+  "StatusId": 1,
+  "Status": "Unassigned",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿testing",
+  "StatusChangedBy": null,
+  "StatusChangedOn": "2019-07-18T09:04:35.371991Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:47.922 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:47.923 +01:00 [DBG] 
+2019-07-25 22:29:47.924 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:48.116 +01:00 [DBG] Received message: SequenceNumber:13
+2019-07-25 22:29:48.119 +01:00 [DBG] 
+2019-07-25 22:29:48.121 +01:00 [DBG] Message Body:
+2019-07-25 22:29:48.123 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"aa3e5970-5b93-49e8-adcf-904be32ea46d\"}},\"EntityBody\":{\"TaskId\":439,\"StatusId\":3,\"SHMessageReferenceId\":null,\"Status\":\"In Progress\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿asfsrgerg\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T09:05:07.1028029Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:48.126 +01:00 [DBG] 
+2019-07-25 22:29:48.128 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:48.129 +01:00 [DBG] {
+  "TaskId": 439,
+  "StatusId": 3,
+  "Status": "In Progress",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿asfsrgerg",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T09:05:07.1028029Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:48.133 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:48.134 +01:00 [DBG] 
+2019-07-25 22:29:48.135 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:48.280 +01:00 [DBG] Received message: SequenceNumber:14
+2019-07-25 22:29:48.281 +01:00 [DBG] 
+2019-07-25 22:29:48.282 +01:00 [DBG] Message Body:
+2019-07-25 22:29:48.283 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"2e8219f1-4dc7-4944-9fad-22bb496b9c95\"}},\"EntityBody\":{\"TaskId\":439,\"StatusId\":4,\"SHMessageReferenceId\":null,\"Status\":\"Request For Info\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">The below highlighted\\r\\n&nbsp;issue is caused due to Email app which was not configured in UAT\\r\\ncorrectly. We have updated the settings and also switched off the emails.</font></span></p>\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">&nbsp;</font></span></p>\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">Please verify and feedback.</font></span></p>\\r\\n\\r\\n\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T09:21:50.6766014Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:48.288 +01:00 [DBG] 
+2019-07-25 22:29:48.289 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:48.291 +01:00 [DBG] {
+  "TaskId": 439,
+  "StatusId": 4,
+  "Status": "Request For Info",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">The below highlighted\r\n&nbsp;issue is caused due to Email app which was not configured in UAT\r\ncorrectly. We have updated the settings and also switched off the emails.</font></span></p>\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">&nbsp;</font></span></p>\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">Please verify and feedback.</font></span></p>\r\n\r\n",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T09:21:50.6766014Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:48.294 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:48.295 +01:00 [DBG] 
+2019-07-25 22:29:48.296 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:48.462 +01:00 [DBG] Received message: SequenceNumber:15
+2019-07-25 22:29:48.465 +01:00 [DBG] 
+2019-07-25 22:29:48.465 +01:00 [DBG] Message Body:
+2019-07-25 22:29:48.466 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"4feeb744-309a-45e9-a146-b4c876519cd2\"}},\"EntityBody\":{\"TaskId\":441,\"StatusId\":1,\"SHMessageReferenceId\":null,\"Status\":\"Unassigned\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿testing\",\"StatusChangedBy\":null,\"StatusChangedOn\":\"2019-07-18T09:27:39.4017648Z\",\"AdditionalDetails\":{\"Field1\":null,\"Field2\":null,\"Field3\":null,\"Field4\":null}}"
+2019-07-25 22:29:48.471 +01:00 [DBG] 
+2019-07-25 22:29:48.472 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:48.474 +01:00 [DBG] {
+  "TaskId": 441,
+  "StatusId": 1,
+  "Status": "Unassigned",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿testing",
+  "StatusChangedBy": null,
+  "StatusChangedOn": "2019-07-18T09:27:39.4017648Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:48.475 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:48.476 +01:00 [DBG] 
+2019-07-25 22:29:48.477 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:48.567 +01:00 [DBG] Received message: SequenceNumber:16
+2019-07-25 22:29:48.569 +01:00 [DBG] 
+2019-07-25 22:29:48.571 +01:00 [DBG] Message Body:
+2019-07-25 22:29:48.572 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"32b31151-09ae-4d18-ae47-05caf3f6f331\"}},\"EntityBody\":{\"TaskId\":441,\"StatusId\":2,\"SHMessageReferenceId\":null,\"Status\":\"Assigned\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿adsad\",\"StatusChangedBy\":\"Vishal Malagi\",\"StatusChangedOn\":\"2019-07-18T09:27:56.5132273Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:48.575 +01:00 [DBG] 
+2019-07-25 22:29:48.576 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:48.578 +01:00 [DBG] {
+  "TaskId": 441,
+  "StatusId": 2,
+  "Status": "Assigned",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿adsad",
+  "StatusChangedBy": "Vishal Malagi",
+  "StatusChangedOn": "2019-07-18T09:27:56.5132273Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:48.580 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:48.580 +01:00 [DBG] 
+2019-07-25 22:29:48.581 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:48.682 +01:00 [DBG] Received message: SequenceNumber:17
+2019-07-25 22:29:48.685 +01:00 [DBG] 
+2019-07-25 22:29:48.687 +01:00 [DBG] Message Body:
+2019-07-25 22:29:48.688 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"2b234435-d754-4603-a201-2e362552ce12\"}},\"EntityBody\":{\"TaskId\":441,\"StatusId\":3,\"SHMessageReferenceId\":null,\"Status\":\"In Progress\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿fdrfgwewt\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T09:28:03.1797573Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:48.693 +01:00 [DBG] 
+2019-07-25 22:29:48.694 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:48.695 +01:00 [DBG] {
+  "TaskId": 441,
+  "StatusId": 3,
+  "Status": "In Progress",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿fdrfgwewt",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T09:28:03.1797573Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:48.696 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:48.697 +01:00 [DBG] 
+2019-07-25 22:29:48.698 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:48.788 +01:00 [DBG] Received message: SequenceNumber:18
+2019-07-25 22:29:48.790 +01:00 [DBG] 
+2019-07-25 22:29:48.791 +01:00 [DBG] Message Body:
+2019-07-25 22:29:48.792 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"2c9094b7-d5c4-485a-ad97-7c0a44a36a54\"}},\"EntityBody\":{\"TaskId\":441,\"StatusId\":4,\"SHMessageReferenceId\":null,\"Status\":\"Request For Info\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">The below highlighted\\r\\n&nbsp;issue is caused due to Email app which was not configured in UAT\\r\\ncorrectly. We have updated the settings and also switched off the emails.</font></span></p>\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">&nbsp;</font></span></p>\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">Please verify and feedback.</font></span></p>\\r\\n\\r\\n\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T09:29:19.5083419Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:48.796 +01:00 [DBG] 
+2019-07-25 22:29:48.796 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:48.797 +01:00 [DBG] {
+  "TaskId": 441,
+  "StatusId": 4,
+  "Status": "Request For Info",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">The below highlighted\r\n&nbsp;issue is caused due to Email app which was not configured in UAT\r\ncorrectly. We have updated the settings and also switched off the emails.</font></span></p>\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">&nbsp;</font></span></p>\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">Please verify and feedback.</font></span></p>\r\n\r\n",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T09:29:19.5083419Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:48.802 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:48.804 +01:00 [DBG] 
+2019-07-25 22:29:48.805 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:48.990 +01:00 [DBG] Received message: SequenceNumber:19
+2019-07-25 22:29:48.992 +01:00 [DBG] 
+2019-07-25 22:29:48.993 +01:00 [DBG] Message Body:
+2019-07-25 22:29:48.994 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"a84d52e1-85ca-4bdd-abfa-9b4affde9f76\"}},\"EntityBody\":{\"TaskId\":441,\"StatusId\":3,\"SHMessageReferenceId\":null,\"Status\":\"In Progress\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":\"Reason 2\",\"Comments\":\"﻿SADASDASD\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T09:30:09.9501174Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:48.997 +01:00 [DBG] 
+2019-07-25 22:29:48.998 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:48.998 +01:00 [DBG] {
+  "TaskId": 441,
+  "StatusId": 3,
+  "Status": "In Progress",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": "Reason 2",
+  "Comments": "﻿SADASDASD",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T09:30:09.9501174Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:49.005 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:49.006 +01:00 [DBG] 
+2019-07-25 22:29:49.007 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:49.183 +01:00 [DBG] Received message: SequenceNumber:20
+2019-07-25 22:29:49.184 +01:00 [DBG] 
+2019-07-25 22:29:49.185 +01:00 [DBG] Message Body:
+2019-07-25 22:29:49.186 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"4d35fd0d-24c6-4014-a2ad-681804d0d1ee\"}},\"EntityBody\":{\"TaskId\":441,\"StatusId\":4,\"SHMessageReferenceId\":null,\"Status\":\"Request For Info\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">The below highlighted\\r\\n&nbsp;issue is caused due to Email app which was not configured in UAT\\r\\ncorrectly. We have updated the settings and also switched off the emails.</font></span></p>\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">&nbsp;</font></span></p>\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">Please verify and feedback.</font></span></p>\\r\\n\\r\\n\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T09:30:30.348974Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:49.191 +01:00 [DBG] 
+2019-07-25 22:29:49.194 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:49.195 +01:00 [DBG] {
+  "TaskId": 441,
+  "StatusId": 4,
+  "Status": "Request For Info",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">The below highlighted\r\n&nbsp;issue is caused due to Email app which was not configured in UAT\r\ncorrectly. We have updated the settings and also switched off the emails.</font></span></p>\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">&nbsp;</font></span></p>\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">Please verify and feedback.</font></span></p>\r\n\r\n",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T09:30:30.348974Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:49.198 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:49.199 +01:00 [DBG] 
+2019-07-25 22:29:49.200 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:49.382 +01:00 [DBG] Received message: SequenceNumber:21
+2019-07-25 22:29:49.383 +01:00 [DBG] 
+2019-07-25 22:29:49.384 +01:00 [DBG] Message Body:
+2019-07-25 22:29:49.385 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"68fa7bd4-d986-42c3-ad3d-5fffddb237b5\"}},\"EntityBody\":{\"TaskId\":441,\"StatusId\":3,\"SHMessageReferenceId\":null,\"Status\":\"In Progress\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":\"Reason 2\",\"Comments\":\"﻿eftresgt\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T10:22:59.4426894Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:49.387 +01:00 [DBG] 
+2019-07-25 22:29:49.388 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:49.389 +01:00 [DBG] {
+  "TaskId": 441,
+  "StatusId": 3,
+  "Status": "In Progress",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": "Reason 2",
+  "Comments": "﻿eftresgt",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T10:22:59.4426894Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:49.391 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:49.394 +01:00 [DBG] 
+2019-07-25 22:29:49.394 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:49.564 +01:00 [DBG] Received message: SequenceNumber:22
+2019-07-25 22:29:49.565 +01:00 [DBG] 
+2019-07-25 22:29:49.566 +01:00 [DBG] Message Body:
+2019-07-25 22:29:49.567 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"789b4d9f-8edc-4890-885f-167df75eb056\"}},\"EntityBody\":{\"TaskId\":441,\"StatusId\":5,\"SHMessageReferenceId\":null,\"Status\":\"Quality Check\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">The below highlighted\\r\\n&nbsp;issue is caused due to Email app which was not configured in UAT\\r\\ncorrectly. We have updated the settings and also switched off the emails.</font></span></p>\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">&nbsp;</font></span></p>\\r\\n\\r\\n<p style=\\\"margin: 0cm 0cm 0pt;\\\"><span style=\\\"color: rgb(31, 73, 125);\\\"><font face=\\\"Calibri\\\">Please verify and feedback.</font></span></p>\\r\\n\\r\\n\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T10:23:13.1356845Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:49.571 +01:00 [DBG] 
+2019-07-25 22:29:49.571 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:49.572 +01:00 [DBG] {
+  "TaskId": 441,
+  "StatusId": 5,
+  "Status": "Quality Check",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">The below highlighted\r\n&nbsp;issue is caused due to Email app which was not configured in UAT\r\ncorrectly. We have updated the settings and also switched off the emails.</font></span></p>\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">&nbsp;</font></span></p>\r\n\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: rgb(31, 73, 125);\"><font face=\"Calibri\">Please verify and feedback.</font></span></p>\r\n\r\n",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T10:23:13.1356845Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:49.577 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:49.578 +01:00 [DBG] 
+2019-07-25 22:29:49.579 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:50.007 +01:00 [DBG] Received message: SequenceNumber:24
+2019-07-25 22:29:50.007 +01:00 [DBG] 
+2019-07-25 22:29:50.008 +01:00 [DBG] Message Body:
+2019-07-25 22:29:50.009 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"ca85ae03-3c8f-4531-90a5-479669213ee7\"}},\"EntityBody\":{\"TaskId\":441,\"StatusId\":12,\"SHMessageReferenceId\":null,\"Status\":\"Approved\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"No Comments\",\"StatusChangedBy\":\"Maharajan Achudhan\",\"StatusChangedOn\":\"2019-07-18T10:24:21.5661968Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:50.011 +01:00 [DBG] 
+2019-07-25 22:29:50.012 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:50.013 +01:00 [DBG] {
+  "TaskId": 441,
+  "StatusId": 12,
+  "Status": "Approved",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "No Comments",
+  "StatusChangedBy": "Maharajan Achudhan",
+  "StatusChangedOn": "2019-07-18T10:24:21.5661968Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:50.014 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:50.015 +01:00 [DBG] 
+2019-07-25 22:29:50.016 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:50.123 +01:00 [DBG] Received message: SequenceNumber:25
+2019-07-25 22:29:50.123 +01:00 [DBG] 
+2019-07-25 22:29:50.124 +01:00 [DBG] Message Body:
+2019-07-25 22:29:50.125 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"f6311d11-f68b-46aa-9f74-626b754b8b59\"}},\"EntityBody\":{\"TaskId\":441,\"StatusId\":3,\"SHMessageReferenceId\":null,\"Status\":\"In Progress\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿sfsadfsafs\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T10:48:24.3563897Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:50.128 +01:00 [DBG] 
+2019-07-25 22:29:50.129 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:50.130 +01:00 [DBG] {
+  "TaskId": 441,
+  "StatusId": 3,
+  "Status": "In Progress",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿sfsadfsafs",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T10:48:24.3563897Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:50.132 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:50.135 +01:00 [DBG] 
+2019-07-25 22:29:50.137 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:50.274 +01:00 [DBG] Received message: SequenceNumber:26
+2019-07-25 22:29:50.275 +01:00 [DBG] 
+2019-07-25 22:29:50.276 +01:00 [DBG] Message Body:
+2019-07-25 22:29:50.277 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"0fce5107-db77-4dce-97a8-51693ad9c73b\"}},\"EntityBody\":{\"TaskId\":441,\"StatusId\":5,\"SHMessageReferenceId\":null,\"Status\":\"Quality Check\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"No Comments\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T10:48:41.6777988Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:50.279 +01:00 [DBG] 
+2019-07-25 22:29:50.280 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:50.280 +01:00 [DBG] {
+  "TaskId": 441,
+  "StatusId": 5,
+  "Status": "Quality Check",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "No Comments",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T10:48:41.6777988Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:50.284 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:50.289 +01:00 [DBG] 
+2019-07-25 22:29:50.290 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:50.382 +01:00 [DBG] Received message: SequenceNumber:27
+2019-07-25 22:29:50.383 +01:00 [DBG] 
+2019-07-25 22:29:50.383 +01:00 [DBG] Message Body:
+2019-07-25 22:29:50.384 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"Long\",\"TaskSourceTypeId\":\"8\",\"SHMessageReferenceId\":\"6981e6ba-a524-41a1-8401-ea5b1d6064b4\"}},\"EntityBody\":{\"TaskId\":389,\"StatusId\":6,\"SHMessageReferenceId\":null,\"Status\":\"Rejected\",\"TaskTemplate\":\"Long\",\"StatusChangeReason\":\"Three_edit\",\"Comments\":\"﻿sdfsdf\",\"StatusChangedBy\":\"Maharajan Achudhan\",\"StatusChangedOn\":\"2019-07-18T14:32:56.6128362Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:50.387 +01:00 [DBG] 
+2019-07-25 22:29:50.388 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:50.389 +01:00 [DBG] {
+  "TaskId": 389,
+  "StatusId": 6,
+  "Status": "Rejected",
+  "TaskTemplate": "Long",
+  "StatusChangeReason": "Three_edit",
+  "Comments": "﻿sdfsdf",
+  "StatusChangedBy": "Maharajan Achudhan",
+  "StatusChangedOn": "2019-07-18T14:32:56.6128362Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:50.390 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:50.393 +01:00 [DBG] 
+2019-07-25 22:29:50.394 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:50.857 +01:00 [DBG] Received message: SequenceNumber:29
+2019-07-25 22:29:50.858 +01:00 [DBG] 
+2019-07-25 22:29:50.859 +01:00 [DBG] Message Body:
+2019-07-25 22:29:50.860 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"Long\",\"TaskSourceTypeId\":\"8\",\"SHMessageReferenceId\":\"1a7e452b-f7e9-498d-bdf7-62061485a1c8\"}},\"EntityBody\":{\"TaskId\":389,\"StatusId\":13,\"SHMessageReferenceId\":null,\"Status\":\"Auto-Complete\",\"TaskTemplate\":\"Long\",\"StatusChangeReason\":null,\"Comments\":\"No Comments\",\"StatusChangedBy\":\"Maharajan Achudhan\",\"StatusChangedOn\":\"2019-07-18T14:33:08.3668342Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:50.863 +01:00 [DBG] 
+2019-07-25 22:29:50.864 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:50.865 +01:00 [DBG] {
+  "TaskId": 389,
+  "StatusId": 13,
+  "Status": "Auto-Complete",
+  "TaskTemplate": "Long",
+  "StatusChangeReason": null,
+  "Comments": "No Comments",
+  "StatusChangedBy": "Maharajan Achudhan",
+  "StatusChangedOn": "2019-07-18T14:33:08.3668342Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:50.866 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:50.871 +01:00 [DBG] 
+2019-07-25 22:29:50.871 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:51.000 +01:00 [DBG] Received message: SequenceNumber:30
+2019-07-25 22:29:51.001 +01:00 [DBG] 
+2019-07-25 22:29:51.002 +01:00 [DBG] Message Body:
+2019-07-25 22:29:51.005 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"e871e5a7-cd56-4f7d-a227-775b09a32d6d\"}},\"EntityBody\":{\"TaskId\":362,\"StatusId\":7,\"SHMessageReferenceId\":null,\"Status\":\"Complete\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿scgfsgsg\",\"StatusChangedBy\":\"Maharajan Achudhan\",\"StatusChangedOn\":\"2019-07-18T14:38:57.0146816Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:51.008 +01:00 [DBG] 
+2019-07-25 22:29:51.008 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:51.010 +01:00 [DBG] {
+  "TaskId": 362,
+  "StatusId": 7,
+  "Status": "Complete",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿scgfsgsg",
+  "StatusChangedBy": "Maharajan Achudhan",
+  "StatusChangedOn": "2019-07-18T14:38:57.0146816Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:51.012 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:51.014 +01:00 [DBG] 
+2019-07-25 22:29:51.015 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:51.105 +01:00 [DBG] Received message: SequenceNumber:31
+2019-07-25 22:29:51.106 +01:00 [DBG] 
+2019-07-25 22:29:51.107 +01:00 [DBG] Message Body:
+2019-07-25 22:29:51.108 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"Verzoek Product Group Leader op ongewijzigde prolongatie\",\"TaskSourceTypeId\":\"8\",\"SHMessageReferenceId\":\"b38c9fd9-a5fc-4741-b7e7-7c337e00613e\"}},\"EntityBody\":{\"TaskId\":56455,\"StatusId\":5,\"SHMessageReferenceId\":null,\"Status\":\"Quality Check\",\"TaskTemplate\":\"Verzoek Product Group Leader op ongewijzigde prolongatie\",\"StatusChangeReason\":null,\"Comments\":\"Add this Task comments from Integration - Create task in Emerald  its working task created by Name @ 19/07/2019 14:10:39\",\"StatusChangedBy\":null,\"StatusChangedOn\":\"2019-07-19T13:10:55.7597621Z\",\"AdditionalDetails\":null}}"
+2019-07-25 22:29:51.110 +01:00 [DBG] 
+2019-07-25 22:29:51.111 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:51.117 +01:00 [DBG] {
+  "TaskId": 56455,
+  "StatusId": 5,
+  "Status": "Quality Check",
+  "TaskTemplate": "Verzoek Product Group Leader op ongewijzigde prolongatie",
+  "StatusChangeReason": null,
+  "Comments": "Add this Task comments from Integration - Create task in Emerald  its working task created by Name @ 19/07/2019 14:10:39",
+  "StatusChangedBy": null,
+  "StatusChangedOn": "2019-07-19T13:10:55.7597621Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:51.121 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:51.122 +01:00 [DBG] 
+2019-07-25 22:29:51.123 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:51.225 +01:00 [DBG] Received message: SequenceNumber:32
+2019-07-25 22:29:51.226 +01:00 [DBG] 
+2019-07-25 22:29:51.227 +01:00 [DBG] Message Body:
+2019-07-25 22:29:51.228 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"7bde5616-a9c8-4b7f-b314-009a7f6e561d\"}},\"EntityBody\":{\"TaskId\":459,\"StatusId\":1,\"SHMessageReferenceId\":null,\"Status\":\"Unassigned\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿test\",\"StatusChangedBy\":null,\"StatusChangedOn\":\"2019-07-19T13:18:11.4120702Z\",\"AdditionalDetails\":{\"Field1\":null,\"Field2\":null,\"Field3\":null,\"Field4\":null}}"
+2019-07-25 22:29:51.231 +01:00 [DBG] 
+2019-07-25 22:29:51.232 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:51.233 +01:00 [DBG] {
+  "TaskId": 459,
+  "StatusId": 1,
+  "Status": "Unassigned",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿test",
+  "StatusChangedBy": null,
+  "StatusChangedOn": "2019-07-19T13:18:11.4120702Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:51.237 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:51.238 +01:00 [DBG] 
+2019-07-25 22:29:51.239 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:51.380 +01:00 [DBG] Received message: SequenceNumber:33
+2019-07-25 22:29:51.382 +01:00 [DBG] 
+2019-07-25 22:29:51.383 +01:00 [DBG] Message Body:
+2019-07-25 22:29:51.384 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"53a9a64c-5d59-4c93-807f-3609832706e7\"}},\"EntityBody\":{\"TaskId\":459,\"StatusId\":2,\"SHMessageReferenceId\":null,\"Status\":\"Assigned\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿ytu8ty8i\",\"StatusChangedBy\":\"GOKUL M\",\"StatusChangedOn\":\"2019-07-19T13:25:07.6250837Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:51.387 +01:00 [DBG] 
+2019-07-25 22:29:51.388 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:51.388 +01:00 [DBG] {
+  "TaskId": 459,
+  "StatusId": 2,
+  "Status": "Assigned",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿ytu8ty8i",
+  "StatusChangedBy": "GOKUL M",
+  "StatusChangedOn": "2019-07-19T13:25:07.6250837Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:51.392 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:51.393 +01:00 [DBG] 
+2019-07-25 22:29:51.394 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:51.536 +01:00 [DBG] Received message: SequenceNumber:34
+2019-07-25 22:29:51.536 +01:00 [DBG] 
+2019-07-25 22:29:51.537 +01:00 [DBG] Message Body:
+2019-07-25 22:29:51.538 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"17c9e484-3dab-4f7c-a3c2-abee3125a30e\"}},\"EntityBody\":{\"TaskId\":460,\"StatusId\":1,\"SHMessageReferenceId\":null,\"Status\":\"Unassigned\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿dfgdf\",\"StatusChangedBy\":null,\"StatusChangedOn\":\"2019-07-19T13:28:07.5239798Z\",\"AdditionalDetails\":{\"Field1\":null,\"Field2\":null,\"Field3\":null,\"Field4\":null}}"
+2019-07-25 22:29:51.542 +01:00 [DBG] 
+2019-07-25 22:29:51.542 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:51.543 +01:00 [DBG] {
+  "TaskId": 460,
+  "StatusId": 1,
+  "Status": "Unassigned",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿dfgdf",
+  "StatusChangedBy": null,
+  "StatusChangedOn": "2019-07-19T13:28:07.5239798Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:51.547 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:51.548 +01:00 [DBG] 
+2019-07-25 22:29:51.548 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:51.736 +01:00 [DBG] Received message: SequenceNumber:35
+2019-07-25 22:29:51.738 +01:00 [DBG] 
+2019-07-25 22:29:51.740 +01:00 [DBG] Message Body:
+2019-07-25 22:29:51.741 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"58591d95-70f9-4cd6-b4d5-0cb47018fdc1\"}},\"EntityBody\":{\"TaskId\":462,\"StatusId\":1,\"SHMessageReferenceId\":null,\"Status\":\"Unassigned\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿fxdgtry\",\"StatusChangedBy\":null,\"StatusChangedOn\":\"2019-07-19T13:43:10.370648Z\",\"AdditionalDetails\":{\"Field1\":null,\"Field2\":null,\"Field3\":null,\"Field4\":null}}"
+2019-07-25 22:29:51.744 +01:00 [DBG] 
+2019-07-25 22:29:51.744 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:51.745 +01:00 [DBG] {
+  "TaskId": 462,
+  "StatusId": 1,
+  "Status": "Unassigned",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿fxdgtry",
+  "StatusChangedBy": null,
+  "StatusChangedOn": "2019-07-19T13:43:10.370648Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:51.749 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:51.750 +01:00 [DBG] 
+2019-07-25 22:29:51.751 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:51.905 +01:00 [DBG] Received message: SequenceNumber:36
+2019-07-25 22:29:51.906 +01:00 [DBG] 
+2019-07-25 22:29:51.907 +01:00 [DBG] Message Body:
+2019-07-25 22:29:51.908 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"80e414b4-8d62-48b8-8fba-4ecb504ea967\"}},\"EntityBody\":{\"TaskId\":462,\"StatusId\":2,\"SHMessageReferenceId\":null,\"Status\":\"Assigned\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"No Comments\",\"StatusChangedBy\":\"Alan Brame\",\"StatusChangedOn\":\"2019-07-19T13:44:03.7198349Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:51.911 +01:00 [DBG] 
+2019-07-25 22:29:51.912 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:51.913 +01:00 [DBG] {
+  "TaskId": 462,
+  "StatusId": 2,
+  "Status": "Assigned",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "No Comments",
+  "StatusChangedBy": "Alan Brame",
+  "StatusChangedOn": "2019-07-19T13:44:03.7198349Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:51.916 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:51.917 +01:00 [DBG] 
+2019-07-25 22:29:51.918 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:52.106 +01:00 [DBG] Received message: SequenceNumber:37
+2019-07-25 22:29:52.107 +01:00 [DBG] 
+2019-07-25 22:29:52.108 +01:00 [DBG] Message Body:
+2019-07-25 22:29:52.108 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"d56a92bb-5358-4650-bbdc-6b39d7add2f7\"}},\"EntityBody\":{\"TaskId\":462,\"StatusId\":3,\"SHMessageReferenceId\":null,\"Status\":\"In Progress\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿asDsadfsaf\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-19T13:44:17.0237695Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:52.111 +01:00 [DBG] 
+2019-07-25 22:29:52.112 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:52.114 +01:00 [DBG] {
+  "TaskId": 462,
+  "StatusId": 3,
+  "Status": "In Progress",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿asDsadfsaf",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-19T13:44:17.0237695Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:52.117 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:52.118 +01:00 [DBG] 
+2019-07-25 22:29:52.119 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:52.221 +01:00 [DBG] Received message: SequenceNumber:38
+2019-07-25 22:29:52.222 +01:00 [DBG] 
+2019-07-25 22:29:52.223 +01:00 [DBG] Message Body:
+2019-07-25 22:29:52.224 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"7cb7a2be-5290-4cb2-b742-7ddf2664a9a8\"}},\"EntityBody\":{\"TaskId\":462,\"StatusId\":5,\"SHMessageReferenceId\":null,\"Status\":\"Quality Check\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"<p><strong>﻿Approve?</strong></p><strong>Thanks &amp; Regards,</strong><br><strong>Maharajan Achudhan</strong><strong></strong><p><strong>﻿</strong></p>\",\"StatusChangedBy\":\"Maharajan Achudhan\",\"StatusChangedOn\":\"2019-07-19T13:45:50.7903039Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:52.229 +01:00 [DBG] 
+2019-07-25 22:29:52.231 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:52.232 +01:00 [DBG] {
+  "TaskId": 462,
+  "StatusId": 5,
+  "Status": "Quality Check",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "<p><strong>﻿Approve?</strong></p><strong>Thanks &amp; Regards,</strong><br><strong>Maharajan Achudhan</strong><strong></strong><p><strong>﻿</strong></p>",
+  "StatusChangedBy": "Maharajan Achudhan",
+  "StatusChangedOn": "2019-07-19T13:45:50.7903039Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:52.234 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:52.235 +01:00 [DBG] 
+2019-07-25 22:29:52.237 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:52.661 +01:00 [DBG] Received message: SequenceNumber:40
+2019-07-25 22:29:52.663 +01:00 [DBG] 
+2019-07-25 22:29:52.663 +01:00 [DBG] Message Body:
+2019-07-25 22:29:52.664 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"f6848339-b847-474a-97a6-8a2ad4f9cc22\"}},\"EntityBody\":{\"TaskId\":462,\"StatusId\":12,\"SHMessageReferenceId\":null,\"Status\":\"Approved\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"No Comments\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-19T13:58:35.4059168Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:52.666 +01:00 [DBG] 
+2019-07-25 22:29:52.667 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:52.668 +01:00 [DBG] {
+  "TaskId": 462,
+  "StatusId": 12,
+  "Status": "Approved",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "No Comments",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-19T13:58:35.4059168Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:52.670 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:52.673 +01:00 [DBG] 
+2019-07-25 22:29:52.675 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:52.869 +01:00 [DBG] Received message: SequenceNumber:41
+2019-07-25 22:29:52.870 +01:00 [DBG] 
+2019-07-25 22:29:52.871 +01:00 [DBG] Message Body:
+2019-07-25 22:29:52.872 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"3b9ac305-fd38-421e-b9ee-983913a1fd59\"}},\"EntityBody\":{\"TaskId\":460,\"StatusId\":2,\"SHMessageReferenceId\":null,\"Status\":\"Assigned\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"No Comments\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-19T14:03:19.4065947Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:52.874 +01:00 [DBG] 
+2019-07-25 22:29:52.875 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:52.876 +01:00 [DBG] {
+  "TaskId": 460,
+  "StatusId": 2,
+  "Status": "Assigned",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "No Comments",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-19T14:03:19.4065947Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:52.877 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:52.880 +01:00 [DBG] 
+2019-07-25 22:29:52.881 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:52.978 +01:00 [DBG] Received message: SequenceNumber:42
+2019-07-25 22:29:52.979 +01:00 [DBG] 
+2019-07-25 22:29:52.980 +01:00 [DBG] Message Body:
+2019-07-25 22:29:52.981 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"fea4f6bf-399c-4250-932d-08a6f9cef1f7\"}},\"EntityBody\":{\"TaskId\":460,\"StatusId\":3,\"SHMessageReferenceId\":null,\"Status\":\"In Progress\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"No Comments\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-19T14:03:24.8116012Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:52.983 +01:00 [DBG] 
+2019-07-25 22:29:52.984 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:52.985 +01:00 [DBG] {
+  "TaskId": 460,
+  "StatusId": 3,
+  "Status": "In Progress",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "No Comments",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-19T14:03:24.8116012Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:52.990 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:52.991 +01:00 [DBG] 
+2019-07-25 22:29:52.991 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:53.096 +01:00 [DBG] Received message: SequenceNumber:43
+2019-07-25 22:29:53.098 +01:00 [DBG] 
+2019-07-25 22:29:53.100 +01:00 [DBG] Message Body:
+2019-07-25 22:29:53.101 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"7bc7f561-16c2-41ec-8d4f-01c7b6b0a349\"}},\"EntityBody\":{\"TaskId\":460,\"StatusId\":5,\"SHMessageReferenceId\":null,\"Status\":\"Quality Check\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿cdcdcdc\",\"StatusChangedBy\":\"Maharajan Achudhan\",\"StatusChangedOn\":\"2019-07-19T14:08:25.6851281Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:53.105 +01:00 [DBG] 
+2019-07-25 22:29:53.105 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:53.107 +01:00 [DBG] {
+  "TaskId": 460,
+  "StatusId": 5,
+  "Status": "Quality Check",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿cdcdcdc",
+  "StatusChangedBy": "Maharajan Achudhan",
+  "StatusChangedOn": "2019-07-19T14:08:25.6851281Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:53.109 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:53.110 +01:00 [DBG] 
+2019-07-25 22:29:53.110 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:53.494 +01:00 [DBG] Received message: SequenceNumber:45
+2019-07-25 22:29:53.495 +01:00 [DBG] 
+2019-07-25 22:29:53.496 +01:00 [DBG] Message Body:
+2019-07-25 22:29:53.497 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"a75e990a-064c-4372-91bf-58a1f0f8a35b\"}},\"EntityBody\":{\"TaskId\":460,\"StatusId\":12,\"SHMessageReferenceId\":null,\"Status\":\"Approved\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"No Comments\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-19T14:10:43.7316548Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:53.499 +01:00 [DBG] 
+2019-07-25 22:29:53.500 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:53.501 +01:00 [DBG] {
+  "TaskId": 460,
+  "StatusId": 12,
+  "Status": "Approved",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "No Comments",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-19T14:10:43.7316548Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:53.502 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:53.506 +01:00 [DBG] 
+2019-07-25 22:29:53.507 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:53.604 +01:00 [DBG] Received message: SequenceNumber:46
+2019-07-25 22:29:53.605 +01:00 [DBG] 
+2019-07-25 22:29:53.607 +01:00 [DBG] Message Body:
+2019-07-25 22:29:53.608 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"272f1d6a-b445-41b2-9e67-a21587033426\"}},\"EntityBody\":{\"TaskId\":385,\"StatusId\":4,\"SHMessageReferenceId\":null,\"Status\":\"Request For Info\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿adasfsdgrew ewertf\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-20T06:28:02.5419511Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:53.616 +01:00 [DBG] 
+2019-07-25 22:29:53.617 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:53.619 +01:00 [DBG] {
+  "TaskId": 385,
+  "StatusId": 4,
+  "Status": "Request For Info",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿adasfsdgrew ewertf",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-20T06:28:02.5419511Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:53.625 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:53.627 +01:00 [DBG] 
+2019-07-25 22:29:53.628 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:53.863 +01:00 [DBG] Received message: SequenceNumber:47
+2019-07-25 22:29:53.864 +01:00 [DBG] 
+2019-07-25 22:29:53.865 +01:00 [DBG] Message Body:
+2019-07-25 22:29:53.867 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"0b2eadc8-1a63-48ec-8dac-c1ee0618296b\"}},\"EntityBody\":{\"TaskId\":459,\"StatusId\":3,\"SHMessageReferenceId\":null,\"Status\":\"In Progress\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿adDSD\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-22T04:59:00.4043022Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:53.870 +01:00 [DBG] 
+2019-07-25 22:29:53.871 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:53.872 +01:00 [DBG] {
+  "TaskId": 459,
+  "StatusId": 3,
+  "Status": "In Progress",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿adDSD",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-22T04:59:00.4043022Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:53.875 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:53.876 +01:00 [DBG] 
+2019-07-25 22:29:53.877 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:54.039 +01:00 [DBG] Received message: SequenceNumber:48
+2019-07-25 22:29:54.040 +01:00 [DBG] 
+2019-07-25 22:29:54.041 +01:00 [DBG] Message Body:
+2019-07-25 22:29:54.041 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"a3b36779-2602-4983-84e0-be4e8bf70774\"}},\"EntityBody\":{\"TaskId\":459,\"StatusId\":4,\"SHMessageReferenceId\":null,\"Status\":\"Request For Info\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"No Comments\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-22T05:08:33.0695654Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:54.044 +01:00 [DBG] 
+2019-07-25 22:29:54.044 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:54.045 +01:00 [DBG] {
+  "TaskId": 459,
+  "StatusId": 4,
+  "Status": "Request For Info",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "No Comments",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-22T05:08:33.0695654Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:54.047 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:54.050 +01:00 [DBG] 
+2019-07-25 22:29:54.050 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:54.158 +01:00 [DBG] Received message: SequenceNumber:49
+2019-07-25 22:29:54.159 +01:00 [DBG] 
+2019-07-25 22:29:54.160 +01:00 [DBG] Message Body:
+2019-07-25 22:29:54.168 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"4707ca4b-7be4-43ee-abfb-2e2220e2e0e6\"}},\"EntityBody\":{\"TaskId\":459,\"StatusId\":3,\"SHMessageReferenceId\":null,\"Status\":\"In Progress\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":\"Reason 2\",\"Comments\":\"﻿dgdsgsg\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-22T05:08:52.1148213Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:54.178 +01:00 [DBG] 
+2019-07-25 22:29:54.179 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:54.180 +01:00 [DBG] {
+  "TaskId": 459,
+  "StatusId": 3,
+  "Status": "In Progress",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": "Reason 2",
+  "Comments": "﻿dgdsgsg",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-22T05:08:52.1148213Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:54.182 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:54.183 +01:00 [DBG] 
+2019-07-25 22:29:54.183 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:54.311 +01:00 [DBG] Received message: SequenceNumber:50
+2019-07-25 22:29:54.311 +01:00 [DBG] 
+2019-07-25 22:29:54.312 +01:00 [DBG] Message Body:
+2019-07-25 22:29:54.313 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"41e3fea7-86b0-47de-9276-99830f3aacd6\"}},\"EntityBody\":{\"TaskId\":459,\"StatusId\":4,\"SHMessageReferenceId\":null,\"Status\":\"Request For Info\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"No Comments\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-22T05:09:02.311607Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:54.316 +01:00 [DBG] 
+2019-07-25 22:29:54.316 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:54.317 +01:00 [DBG] {
+  "TaskId": 459,
+  "StatusId": 4,
+  "Status": "Request For Info",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "No Comments",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-22T05:09:02.311607Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:54.322 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:54.323 +01:00 [DBG] 
+2019-07-25 22:29:54.323 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:54.414 +01:00 [DBG] Received message: SequenceNumber:51
+2019-07-25 22:29:54.415 +01:00 [DBG] 
+2019-07-25 22:29:54.416 +01:00 [DBG] Message Body:
+2019-07-25 22:29:54.417 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"93046f5b-8a70-4578-834d-9da6fe8280a4\"}},\"EntityBody\":{\"TaskId\":495,\"StatusId\":1,\"SHMessageReferenceId\":null,\"Status\":\"Unassigned\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"Hi\",\"StatusChangedBy\":null,\"StatusChangedOn\":\"2019-07-22T12:53:44.3925813Z\",\"AdditionalDetails\":{\"Field1\":\"123\",\"Field2\":\"456\",\"Field3\":\"23-Jul-2019\",\"Field4\":\"Yes\"}}"
+2019-07-25 22:29:54.421 +01:00 [DBG] 
+2019-07-25 22:29:54.422 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:54.423 +01:00 [DBG] {
+  "TaskId": 495,
+  "StatusId": 1,
+  "Status": "Unassigned",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "Hi",
+  "StatusChangedBy": null,
+  "StatusChangedOn": "2019-07-22T12:53:44.3925813Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:54.426 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:54.429 +01:00 [DBG] 
+2019-07-25 22:29:54.430 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:54.555 +01:00 [DBG] Received message: SequenceNumber:52
+2019-07-25 22:29:54.555 +01:00 [DBG] 
+2019-07-25 22:29:54.556 +01:00 [DBG] Message Body:
+2019-07-25 22:29:54.557 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"56bb380c-f6de-4481-8806-8d057232f5c1\"}},\"EntityBody\":{\"TaskId\":495,\"StatusId\":2,\"SHMessageReferenceId\":null,\"Status\":\"Assigned\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"No Comments\",\"StatusChangedBy\":\"Vishal Malagi\",\"StatusChangedOn\":\"2019-07-22T12:54:12.9528723Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:54.559 +01:00 [DBG] 
+2019-07-25 22:29:54.560 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:54.560 +01:00 [DBG] {
+  "TaskId": 495,
+  "StatusId": 2,
+  "Status": "Assigned",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "No Comments",
+  "StatusChangedBy": "Vishal Malagi",
+  "StatusChangedOn": "2019-07-22T12:54:12.9528723Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:54.562 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:54.563 +01:00 [DBG] 
+2019-07-25 22:29:54.564 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:54.683 +01:00 [DBG] Received message: SequenceNumber:53
+2019-07-25 22:29:54.683 +01:00 [DBG] 
+2019-07-25 22:29:54.684 +01:00 [DBG] Message Body:
+2019-07-25 22:29:54.685 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"02123b6f-3e09-438e-a322-0b2516a6543f\"}},\"EntityBody\":{\"TaskId\":461,\"StatusId\":2,\"SHMessageReferenceId\":null,\"Status\":\"Assigned\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"No Comments\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-23T06:27:12.3408572Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:54.687 +01:00 [DBG] 
+2019-07-25 22:29:54.688 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:54.689 +01:00 [DBG] {
+  "TaskId": 461,
+  "StatusId": 2,
+  "Status": "Assigned",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "No Comments",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-23T06:27:12.3408572Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:54.694 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:54.695 +01:00 [DBG] 
+2019-07-25 22:29:54.695 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:54.790 +01:00 [DBG] Received message: SequenceNumber:54
+2019-07-25 22:29:54.791 +01:00 [DBG] 
+2019-07-25 22:29:54.792 +01:00 [DBG] Message Body:
+2019-07-25 22:29:54.792 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"391e826a-65bd-4322-8ed6-7e4e262fe184\"}},\"EntityBody\":{\"TaskId\":461,\"StatusId\":3,\"SHMessageReferenceId\":null,\"Status\":\"In Progress\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"No Comments\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-23T06:27:19.399035Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:54.795 +01:00 [DBG] 
+2019-07-25 22:29:54.795 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:54.796 +01:00 [DBG] {
+  "TaskId": 461,
+  "StatusId": 3,
+  "Status": "In Progress",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "No Comments",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-23T06:27:19.399035Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:54.798 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:54.801 +01:00 [DBG] 
+2019-07-25 22:29:54.802 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:54.904 +01:00 [DBG] Received message: SequenceNumber:55
+2019-07-25 22:29:54.906 +01:00 [DBG] 
+2019-07-25 22:29:54.907 +01:00 [DBG] Message Body:
+2019-07-25 22:29:54.908 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"55ade063-16e7-4244-b782-0980729a0cf0\"}},\"EntityBody\":{\"TaskId\":461,\"StatusId\":4,\"SHMessageReferenceId\":null,\"Status\":\"Request For Info\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"<p style=\\\"margin-bottom:0cm;margin-bottom:.0001pt\\\"><span style=\\\"font-family:\\n“Calibri“,“sans-serif“;color:#1F497D\\\">comments ﻿</span></p><p style=\\\"margin-bottom:0cm;margin-bottom:.0001pt\\\"><span style=\\\"font-family:\\n“Calibri“,“sans-serif“;color:#1F497D\\\">The below highlighted &nbsp;issue is\\ncaused due to Email app which was not configured in UAT correctly. We have\\nupdated the settings and also switched off the emails.</span><o:p></o:p></p>\\n\\n<p style=\\\"margin-bottom:0cm;margin-bottom:.0001pt\\\"><o:p>﻿</o:p></p>\\n\\n<p style=\\\"margin-bottom:0cm;margin-bottom:.0001pt\\\"><span style=\\\"font-family:\\n“Calibri“,“sans-serif“;color:#1F497D\\\">Please verify and feedback.</span><o:p></o:p></p>\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-23T06:27:42.7176799Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:54.913 +01:00 [DBG] 
+2019-07-25 22:29:54.915 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:54.916 +01:00 [DBG] {
+  "TaskId": 461,
+  "StatusId": 4,
+  "Status": "Request For Info",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "<p style=\"margin-bottom:0cm;margin-bottom:.0001pt\"><span style=\"font-family:\n“Calibri“,“sans-serif“;color:#1F497D\">comments ﻿</span></p><p style=\"margin-bottom:0cm;margin-bottom:.0001pt\"><span style=\"font-family:\n“Calibri“,“sans-serif“;color:#1F497D\">The below highlighted &nbsp;issue is\ncaused due to Email app which was not configured in UAT correctly. We have\nupdated the settings and also switched off the emails.</span><o:p></o:p></p>\n\n<p style=\"margin-bottom:0cm;margin-bottom:.0001pt\"><o:p>﻿</o:p></p>\n\n<p style=\"margin-bottom:0cm;margin-bottom:.0001pt\"><span style=\"font-family:\n“Calibri“,“sans-serif“;color:#1F497D\">Please verify and feedback.</span><o:p></o:p></p>",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-23T06:27:42.7176799Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:54.918 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:54.919 +01:00 [DBG] 
+2019-07-25 22:29:54.920 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:55.015 +01:00 [DBG] Received message: SequenceNumber:56
+2019-07-25 22:29:55.016 +01:00 [DBG] 
+2019-07-25 22:29:55.017 +01:00 [DBG] Message Body:
+2019-07-25 22:29:55.020 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"Verzoek Product Group Leader op ongewijzigde prolongatie\",\"TaskSourceTypeId\":\"8\",\"SHMessageReferenceId\":\"f837b173-2608-4b7a-84fb-b95044b5c8a5\"}},\"EntityBody\":{\"TaskId\":56511,\"StatusId\":5,\"SHMessageReferenceId\":null,\"Status\":\"Quality Check\",\"TaskTemplate\":\"Verzoek Product Group Leader op ongewijzigde prolongatie\",\"StatusChangeReason\":null,\"Comments\":null,\"StatusChangedBy\":null,\"StatusChangedOn\":\"2019-07-23T14:24:37.3663783Z\",\"AdditionalDetails\":null}}"
+2019-07-25 22:29:55.023 +01:00 [DBG] 
+2019-07-25 22:29:55.024 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:55.026 +01:00 [DBG] {
+  "TaskId": 56511,
+  "StatusId": 5,
+  "Status": "Quality Check",
+  "TaskTemplate": "Verzoek Product Group Leader op ongewijzigde prolongatie",
+  "StatusChangeReason": null,
+  "Comments": null,
+  "StatusChangedBy": null,
+  "StatusChangedOn": "2019-07-23T14:24:37.3663783Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:55.029 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:55.030 +01:00 [DBG] 
+2019-07-25 22:29:55.030 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:55.117 +01:00 [DBG] Received message: SequenceNumber:57
+2019-07-25 22:29:55.118 +01:00 [DBG] 
+2019-07-25 22:29:55.119 +01:00 [DBG] Message Body:
+2019-07-25 22:29:55.120 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"Verzoek Product Group Leader op ongewijzigde prolongatie\",\"TaskSourceTypeId\":\"8\",\"SHMessageReferenceId\":\"49c35f06-bc57-4e20-ab1f-74327d1e5fcd\"}},\"EntityBody\":{\"TaskId\":56514,\"StatusId\":5,\"SHMessageReferenceId\":null,\"Status\":\"Quality Check\",\"TaskTemplate\":\"Verzoek Product Group Leader op ongewijzigde prolongatie\",\"StatusChangeReason\":null,\"Comments\":null,\"StatusChangedBy\":null,\"StatusChangedOn\":\"2019-07-23T23:14:09.0097433Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:29:55.122 +01:00 [DBG] 
+2019-07-25 22:29:55.123 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:55.124 +01:00 [DBG] {
+  "TaskId": 56514,
+  "StatusId": 5,
+  "Status": "Quality Check",
+  "TaskTemplate": "Verzoek Product Group Leader op ongewijzigde prolongatie",
+  "StatusChangeReason": null,
+  "Comments": null,
+  "StatusChangedBy": null,
+  "StatusChangedOn": "2019-07-23T23:14:09.0097433Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:55.128 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:55.130 +01:00 [DBG] 
+2019-07-25 22:29:55.130 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:55.284 +01:00 [DBG] Received message: SequenceNumber:58
+2019-07-25 22:29:55.286 +01:00 [DBG] 
+2019-07-25 22:29:55.288 +01:00 [DBG] Message Body:
+2019-07-25 22:29:55.289 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"Verzoek Product Group Leader op ongewijzigde prolongatie\",\"TaskSourceTypeId\":\"8\",\"SHMessageReferenceId\":\"41abef70-1acc-4690-b2f5-f5c63248aac0\"}},\"EntityBody\":{\"TaskId\":56515,\"StatusId\":5,\"SHMessageReferenceId\":null,\"Status\":\"Quality Check\",\"TaskTemplate\":\"Verzoek Product Group Leader op ongewijzigde prolongatie\",\"StatusChangeReason\":null,\"Comments\":null,\"StatusChangedBy\":null,\"StatusChangedOn\":\"2019-07-23T23:20:58.9244894Z\",\"AdditionalDetails\":{\"FieldCheck\":\"Test Value\"}}"
+2019-07-25 22:29:55.291 +01:00 [DBG] 
+2019-07-25 22:29:55.292 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:55.293 +01:00 [DBG] {
+  "TaskId": 56515,
+  "StatusId": 5,
+  "Status": "Quality Check",
+  "TaskTemplate": "Verzoek Product Group Leader op ongewijzigde prolongatie",
+  "StatusChangeReason": null,
+  "Comments": null,
+  "StatusChangedBy": null,
+  "StatusChangedOn": "2019-07-23T23:20:58.9244894Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:55.296 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:55.297 +01:00 [DBG] 
+2019-07-25 22:29:55.298 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:55.389 +01:00 [DBG] Received message: SequenceNumber:59
+2019-07-25 22:29:55.391 +01:00 [DBG] 
+2019-07-25 22:29:55.392 +01:00 [DBG] Message Body:
+2019-07-25 22:29:55.392 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"Verzoek Product Group Leader op ongewijzigde prolongatie\",\"TaskSourceTypeId\":\"8\",\"SHMessageReferenceId\":\"09e590c2-4a24-4299-90d2-781ec4406234\"}},\"EntityBody\":{\"TaskId\":56516,\"StatusId\":5,\"SHMessageReferenceId\":null,\"Status\":\"Quality Check\",\"TaskTemplate\":\"Verzoek Product Group Leader op ongewijzigde prolongatie\",\"StatusChangeReason\":null,\"Comments\":null,\"StatusChangedBy\":null,\"StatusChangedOn\":\"2019-07-23T23:50:33.5018137Z\",\"AdditionalDetails\":{\"Gridfield\":\"Test Value\"}}"
+2019-07-25 22:29:55.396 +01:00 [DBG] 
+2019-07-25 22:29:55.397 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:55.399 +01:00 [DBG] {
+  "TaskId": 56516,
+  "StatusId": 5,
+  "Status": "Quality Check",
+  "TaskTemplate": "Verzoek Product Group Leader op ongewijzigde prolongatie",
+  "StatusChangeReason": null,
+  "Comments": null,
+  "StatusChangedBy": null,
+  "StatusChangedOn": "2019-07-23T23:50:33.5018137Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:55.401 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:55.402 +01:00 [DBG] 
+2019-07-25 22:29:55.403 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:55.491 +01:00 [DBG] Received message: SequenceNumber:60
+2019-07-25 22:29:55.492 +01:00 [DBG] 
+2019-07-25 22:29:55.492 +01:00 [DBG] Message Body:
+2019-07-25 22:29:55.493 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Quote Check\",\"TaskSourceTypeId\":\"8\",\"SHMessageReferenceId\":\"09b42d4f-68e4-422c-98c8-17e6aeae12ea\"}},\"EntityBody\":{\"TaskId\":56529,\"StatusId\":5,\"SHMessageReferenceId\":null,\"Status\":\"Quality Check\",\"TaskTemplate\":\"SPOE Quote Check\",\"StatusChangeReason\":null,\"Comments\":null,\"StatusChangedBy\":null,\"StatusChangedOn\":\"2019-07-24T12:43:18.5731774Z\",\"AdditionalDetails\":{\"BrokingPlacementId\":\"1989\",\"NewClientId\":null,\"BrokerEmail\":\"simon.evans@willistowerswatson.com\",\"BrokerFirstName\":\"Simon\",\"ReplyToHost\":\"http://localhost:49929/placement/%d\"}}"
+2019-07-25 22:29:55.496 +01:00 [DBG] 
+2019-07-25 22:29:55.496 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:55.497 +01:00 [DBG] {
+  "TaskId": 56529,
+  "StatusId": 5,
+  "Status": "Quality Check",
+  "TaskTemplate": "SPOE Quote Check",
+  "StatusChangeReason": null,
+  "Comments": null,
+  "StatusChangedBy": null,
+  "StatusChangedOn": "2019-07-24T12:43:18.5731774Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:55.499 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:55.500 +01:00 [DBG] 
+2019-07-25 22:29:55.503 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:29:55.618 +01:00 [DBG] Received message: SequenceNumber:61
+2019-07-25 22:29:55.619 +01:00 [DBG] 
+2019-07-25 22:29:55.621 +01:00 [DBG] Message Body:
+2019-07-25 22:29:55.622 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Quote Check\",\"TaskSourceTypeId\":\"8\",\"SHMessageReferenceId\":\"6313525b-d851-49a3-b801-8b1e0f4c5012\"}},\"EntityBody\":{\"TaskId\":56531,\"StatusId\":5,\"SHMessageReferenceId\":null,\"Status\":\"Quality Check\",\"TaskTemplate\":\"SPOE Quote Check\",\"StatusChangeReason\":null,\"Comments\":null,\"StatusChangedBy\":null,\"StatusChangedOn\":\"2019-07-24T13:39:58.9759805Z\",\"AdditionalDetails\":{\"BrokingPlacementId\":\"1989\",\"NewClientId\":null,\"BrokerEmail\":\"simon.evans@willistowerswatson.com\",\"BrokerFirstName\":\"Simon\",\"ReplyToHost\":\"http://localhost:49929/placement/%d\"}}"
+2019-07-25 22:29:55.626 +01:00 [DBG] 
+2019-07-25 22:29:55.627 +01:00 [DBG] Inner Message body:
+2019-07-25 22:29:55.631 +01:00 [DBG] {
+  "TaskId": 56531,
+  "StatusId": 5,
+  "Status": "Quality Check",
+  "TaskTemplate": "SPOE Quote Check",
+  "StatusChangeReason": null,
+  "Comments": null,
+  "StatusChangedBy": null,
+  "StatusChangedOn": "2019-07-24T13:39:58.9759805Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:29:55.633 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:29:55.633 +01:00 [DBG] 
+2019-07-25 22:29:55.634 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:32:23.763 +01:00 [DBG] Received message: SequenceNumber:6
+2019-07-25 22:32:23.813 +01:00 [DBG] 
+2019-07-25 22:32:23.815 +01:00 [DBG] Message Body:
+2019-07-25 22:32:23.875 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"820e07d2-5fea-4a18-94b5-580614ee6182\"}},\"EntityBody\":{\"TaskId\":436,\"StatusId\":3,\"SHMessageReferenceId\":null,\"Status\":\"In Progress\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"﻿new task\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T07:15:10.826519Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:32:23.877 +01:00 [DBG] 
+2019-07-25 22:32:23.877 +01:00 [DBG] Inner Message body:
+2019-07-25 22:32:23.952 +01:00 [DBG] {
+  "TaskId": 436,
+  "StatusId": 3,
+  "Status": "In Progress",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "﻿new task",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T07:15:10.826519Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:32:23.954 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:32:23.955 +01:00 [DBG] 
+2019-07-25 22:32:23.955 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:32:34.641 +01:00 [DBG] Received message: SequenceNumber:7
+2019-07-25 22:32:34.643 +01:00 [DBG] 
+2019-07-25 22:32:34.645 +01:00 [DBG] Message Body:
+2019-07-25 22:32:34.647 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Task\",\"TaskSourceTypeId\":\"1\",\"SHMessageReferenceId\":\"68ac8307-605f-42ce-9f70-91274d039b58\"}},\"EntityBody\":{\"TaskId\":436,\"StatusId\":4,\"SHMessageReferenceId\":null,\"Status\":\"Request For Info\",\"TaskTemplate\":\"SPOE Task\",\"StatusChangeReason\":null,\"Comments\":\"No Comments\",\"StatusChangedBy\":\"Nagaraj Subburaj\",\"StatusChangedOn\":\"2019-07-18T07:15:57.2398126Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:32:34.653 +01:00 [DBG] 
+2019-07-25 22:32:34.654 +01:00 [DBG] Inner Message body:
+2019-07-25 22:32:34.656 +01:00 [DBG] {
+  "TaskId": 436,
+  "StatusId": 4,
+  "Status": "Request For Info",
+  "TaskTemplate": "SPOE Task",
+  "StatusChangeReason": null,
+  "Comments": "No Comments",
+  "StatusChangedBy": "Nagaraj Subburaj",
+  "StatusChangedOn": "2019-07-18T07:15:57.2398126Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:32:34.662 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:32:34.663 +01:00 [DBG] 
+2019-07-25 22:32:34.664 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:35:11.278 +01:00 [DBG] Received message: SequenceNumber:62
+2019-07-25 22:35:11.280 +01:00 [DBG] 
+2019-07-25 22:35:11.281 +01:00 [DBG] Message Body:
+2019-07-25 22:35:11.282 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":\"TM_Tenant_AutoTaskAction\",\"TaskTemplateName\":\"SPOE Quote Check\",\"TaskSourceTypeId\":\"8\",\"SHMessageReferenceId\":\"cfab3428-d077-405c-ab3d-eb87ffb7cf12\"}},\"EntityBody\":{\"TaskId\":56531,\"StatusId\":6,\"SHMessageReferenceId\":\"216c896c-1059-4d67-8511-1d1d0cb01ef2\",\"Status\":\"Rejected\",\"TaskTemplate\":\"SPOE Quote Check\",\"StatusChangeReason\":\"Currency Discrepancies\",\"Comments\":\"﻿test rejection\",\"StatusChangedBy\":\"SIMON EVANS\",\"StatusChangedOn\":\"2019-07-25T21:33:53.1318444Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:35:11.287 +01:00 [DBG] 
+2019-07-25 22:35:11.288 +01:00 [DBG] Inner Message body:
+2019-07-25 22:35:11.290 +01:00 [DBG] {
+  "TaskId": 56531,
+  "StatusId": 6,
+  "Status": "Rejected",
+  "TaskTemplate": "SPOE Quote Check",
+  "StatusChangeReason": "Currency Discrepancies",
+  "Comments": "﻿test rejection",
+  "StatusChangedBy": "SIMON EVANS",
+  "StatusChangedOn": "2019-07-25T21:33:53.1318444Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:35:11.292 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:35:11.293 +01:00 [DBG] 
+2019-07-25 22:35:11.293 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:41:03.280 +01:00 [DBG] Received message: SequenceNumber:63
+2019-07-25 22:41:03.283 +01:00 [DBG] 
+2019-07-25 22:41:03.284 +01:00 [DBG] Message Body:
+2019-07-25 22:41:03.285 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":\"TM_Tenant_AutoTaskAction\",\"TaskTemplateName\":\"SPOE Quote Check\",\"TaskSourceTypeId\":\"8\",\"SHMessageReferenceId\":\"8580a793-4b0c-4d9c-beb1-dd8ab4a64f3a\"}},\"EntityBody\":{\"TaskId\":56529,\"StatusId\":12,\"SHMessageReferenceId\":\"cab2fada-e7a0-435a-a5bf-d5a97c7dd2fe\",\"Status\":\"Approved\",\"TaskTemplate\":\"SPOE Quote Check\",\"StatusChangeReason\":null,\"Comments\":\"﻿test\",\"StatusChangedBy\":\"SIMON EVANS\",\"StatusChangedOn\":\"2019-07-25T21:40:54.9704525Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:41:03.289 +01:00 [DBG] 
+2019-07-25 22:41:03.290 +01:00 [DBG] Inner Message body:
+2019-07-25 22:41:03.292 +01:00 [DBG] {
+  "TaskId": 56529,
+  "StatusId": 12,
+  "Status": "Approved",
+  "TaskTemplate": "SPOE Quote Check",
+  "StatusChangeReason": null,
+  "Comments": "﻿test",
+  "StatusChangedBy": "SIMON EVANS",
+  "StatusChangedOn": "2019-07-25T21:40:54.9704525Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:41:03.294 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:41:03.295 +01:00 [DBG] 
+2019-07-25 22:41:03.296 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:41:16.586 +01:00 [DBG] Received message: SequenceNumber:64
+2019-07-25 22:41:16.588 +01:00 [DBG] 
+2019-07-25 22:41:16.589 +01:00 [DBG] Message Body:
+2019-07-25 22:41:16.590 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":\"TM_Tenant_AutoTaskAction\",\"TaskTemplateName\":\"SPOE Quote Check\",\"TaskSourceTypeId\":\"8\",\"SHMessageReferenceId\":\"2154000a-12e5-4ba7-9a77-b877c8e0890e\"}},\"EntityBody\":{\"TaskId\":56529,\"StatusId\":13,\"SHMessageReferenceId\":\"cab2fada-e7a0-435a-a5bf-d5a97c7dd2fe\",\"Status\":\"Auto-Complete\",\"TaskTemplate\":\"SPOE Quote Check\",\"StatusChangeReason\":null,\"Comments\":\"No Comments\",\"StatusChangedBy\":\"SIMON EVANS\",\"StatusChangedOn\":\"2019-07-25T21:41:16.0220106Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:41:16.593 +01:00 [DBG] 
+2019-07-25 22:41:16.594 +01:00 [DBG] Inner Message body:
+2019-07-25 22:41:16.595 +01:00 [DBG] {
+  "TaskId": 56529,
+  "StatusId": 13,
+  "Status": "Auto-Complete",
+  "TaskTemplate": "SPOE Quote Check",
+  "StatusChangeReason": null,
+  "Comments": "No Comments",
+  "StatusChangedBy": "SIMON EVANS",
+  "StatusChangedOn": "2019-07-25T21:41:16.0220106Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:41:16.599 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:41:16.601 +01:00 [DBG] 
+2019-07-25 22:41:16.601 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-25 22:42:19.160 +01:00 [DBG] Received message: SequenceNumber:65
+2019-07-25 22:42:19.170 +01:00 [DBG] 
+2019-07-25 22:42:19.170 +01:00 [DBG] Message Body:
+2019-07-25 22:42:19.171 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":\"TM_Tenant_AutoTaskAction\",\"TaskTemplateName\":\"SPOE Quote Check\",\"TaskSourceTypeId\":\"8\",\"SHMessageReferenceId\":\"0636bc3d-316b-4c03-93da-25f64dddc408\"}},\"EntityBody\":{\"TaskId\":56531,\"StatusId\":13,\"SHMessageReferenceId\":\"216c896c-1059-4d67-8511-1d1d0cb01ef2\",\"Status\":\"Auto-Complete\",\"TaskTemplate\":\"SPOE Quote Check\",\"StatusChangeReason\":null,\"Comments\":\"auto\",\"StatusChangedBy\":\"SIMON EVANS\",\"StatusChangedOn\":\"2019-07-25T21:42:18.8948516Z\",\"AdditionalDetails\":{}}"
+2019-07-25 22:42:19.175 +01:00 [DBG] 
+2019-07-25 22:42:19.176 +01:00 [DBG] Inner Message body:
+2019-07-25 22:42:19.179 +01:00 [DBG] {
+  "TaskId": 56531,
+  "StatusId": 13,
+  "Status": "Auto-Complete",
+  "TaskTemplate": "SPOE Quote Check",
+  "StatusChangeReason": null,
+  "Comments": "auto",
+  "StatusChangedBy": "SIMON EVANS",
+  "StatusChangedOn": "2019-07-25T21:42:18.8948516Z",
+  "AdditionalDetails": {}
+}
+2019-07-25 22:42:19.181 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-25 22:42:19.184 +01:00 [DBG] 
+2019-07-25 22:42:19.185 +01:00 [DBG] ----------------------------------------------------------------------

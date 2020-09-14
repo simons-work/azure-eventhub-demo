@@ -1,0 +1,40 @@
+2019-07-26 07:59:26.854 +01:00 [DBG] Received message: SequenceNumber:66
+2019-07-26 07:59:26.903 +01:00 [DBG] 
+2019-07-26 07:59:26.905 +01:00 [DBG] Message Body:
+2019-07-26 07:59:26.971 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":null,\"TaskTemplateName\":\"SPOE Quote Check\",\"TaskSourceTypeId\":\"8\",\"SHMessageReferenceId\":\"e32d1f37-008b-47fa-9fd7-5a0888d3f3f7\"}},\"EntityBody\":{\"TaskId\":56561,\"StatusId\":5,\"SHMessageReferenceId\":null,\"Status\":\"Quality Check\",\"TaskTemplate\":\"SPOE Quote Check\",\"StatusChangeReason\":null,\"Comments\":null,\"StatusChangedBy\":null,\"StatusChangedOn\":\"2019-07-26T06:59:24.1130686Z\",\"AdditionalDetails\":{\"BrokingPlacementId\":\"1989\",\"NewClientId\":null,\"BrokerEmail\":\"simon.evans@willistowerswatson.com\",\"BrokerFirstName\":\"Simon\",\"ReplyToHost\":\"http://localhost:49929/placement/%d\"}}"
+2019-07-26 07:59:26.974 +01:00 [DBG] 
+2019-07-26 07:59:26.975 +01:00 [DBG] Inner Message body:
+2019-07-26 07:59:27.055 +01:00 [DBG] {
+  "TaskId": 56561,
+  "StatusId": 5,
+  "Status": "Quality Check",
+  "TaskTemplate": "SPOE Quote Check",
+  "StatusChangeReason": null,
+  "Comments": null,
+  "StatusChangedBy": null,
+  "StatusChangedOn": "2019-07-26T06:59:24.1130686Z",
+  "AdditionalDetails": {}
+}
+2019-07-26 07:59:27.057 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-26 07:59:27.058 +01:00 [DBG] 
+2019-07-26 07:59:27.059 +01:00 [DBG] ----------------------------------------------------------------------
+2019-07-26 08:23:22.865 +01:00 [DBG] Received message: SequenceNumber:67
+2019-07-26 08:23:22.865 +01:00 [DBG] 
+2019-07-26 08:23:22.866 +01:00 [DBG] Message Body:
+2019-07-26 08:23:22.867 +01:00 [DBG] "{\"SystemProperty\":{\"Tenant\":null,\"CorrelationId\":null,\"MessageId\":\"00000000-0000-0000-0000-000000000000\",\"SessionId\":null,\"MessageType\":0,\"MessageTopic\":null,\"MessageSubscription\":null,\"MessageQueue\":null,\"ExpirationDate\":\"0001-01-01T00:00:00\",\"SystemKeyValues\":null,\"ReplyToTopic\":null},\"UserDefinedProperty\":{\"ExternalResourceUri\":null,\"ExternalResourceName\":null,\"ResourceNaturalKey\":null,\"HttpMethod\":null,\"CustomKeyValues\":{\"Region\":\"TM_Tenant_AutoTaskAction\",\"TaskTemplateName\":\"SPOE Quote Check\",\"TaskSourceTypeId\":\"8\",\"SHMessageReferenceId\":\"11500bde-f7fd-4268-afbe-056279f7a783\"}},\"EntityBody\":{\"TaskId\":56561,\"StatusId\":6,\"SHMessageReferenceId\":\"24c7fa23-df84-4608-ada8-aa734f62185c\",\"Status\":\"Rejected\",\"TaskTemplate\":\"SPOE Quote Check\",\"StatusChangeReason\":\"Currency Discrepancies\",\"Comments\":\"﻿reject\",\"StatusChangedBy\":\"SIMON EVANS\",\"StatusChangedOn\":\"2019-07-26T07:23:20.6778835Z\",\"AdditionalDetails\":{}}"
+2019-07-26 08:23:22.872 +01:00 [DBG] 
+2019-07-26 08:23:22.876 +01:00 [DBG] Inner Message body:
+2019-07-26 08:23:22.878 +01:00 [DBG] {
+  "TaskId": 56561,
+  "StatusId": 6,
+  "Status": "Rejected",
+  "TaskTemplate": "SPOE Quote Check",
+  "StatusChangeReason": "Currency Discrepancies",
+  "Comments": "﻿reject",
+  "StatusChangedBy": "SIMON EVANS",
+  "StatusChangedOn": "2019-07-26T07:23:20.6778835Z",
+  "AdditionalDetails": {}
+}
+2019-07-26 08:23:22.881 +01:00 [DBG] Posting the message body TaskStatusEvent body to Fenetre Test Harness
+2019-07-26 08:23:22.882 +01:00 [DBG] 
+2019-07-26 08:23:22.883 +01:00 [DBG] ----------------------------------------------------------------------
