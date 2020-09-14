@@ -1,0 +1,84 @@
+https://docs.microsoft.com/en-us/azure/event-grid/custom-event-quickstart
+
+az provider show --namespace Microsoft.EventGrid --query "registrationState"
+
+$topicname="wtw-placements"
+az eventgrid topic create --name $topicname -l westus2 -g gridResourceGroup
+
+---------------
+
+$sitename="wtw-test20190607"
+az group deployment create   --resource-group gridResourceGroup   --template-uri "https://raw.githubusercontent.com/Azure-Samples/azure-event-grid-viewer/master/azuredeploy.json"   --parameters siteName=$sitename hostingPlanName=viewerhost
+
+---------------
+
+$endpoint="https://$sitename.azurewebsites.net/api/updates"
+az eventgrid event-subscription create -g gridResourceGroup --topic-name $topicname --name demoViewerSub --endpoint $endpoint
+
+Argument 'resource_group_name' has been deprecated and will be removed in version '2.1.0'. Use '--source-resource-id' instead.
+Argument 'topic_name' has been deprecated and will be removed in version '2.1.0'. Use '--source-resource-id' instead.
+If the provided endpoint does not support subscription validation handshake, navigate to the validation URL that you receive in the subscription validation event, in order to complete the event subscriptioncreation or update. For more details, please visit http://aka.ms/esvalidation
+
+{
+  "deadLetterDestination": null,
+  "destination": {
+    "endpointBaseUrl": "https://wtw-test20190607.azurewebsites.net/api/updates",
+    "endpointType": "WebHook",
+    "endpointUrl": null
+  },
+  "filter": {
+    "includedEventTypes": null,
+    "isSubjectCaseSensitive": null,
+    "subjectBeginsWith": "",
+    "subjectEndsWith": ""
+  },
+  "id": "/subscriptions/d1f29f5c-f98c-4136-b105-e70ad7a29358/resourceGroups/gridResourceGroup/providers/Microsoft.EventGrid/topics/wtw-placements/providers/Microsoft.EventGrid/eventSubscriptions/demoViewerSub",
+  "labels": null,
+  "name": "demoViewerSub",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "gridResourceGroup",
+  "retryPolicy": {
+    "eventTimeToLiveInMinutes": 1440,
+    "maxDeliveryAttempts": 30
+  },
+  "topic": "/subscriptions/d1f29f5c-f98c-4136-b105-e70ad7a29358/resourceGroups/gridresourcegroup/providers/microsoft.eventgrid/topics/wtw-placements",
+  "type": "Microsoft.EventGrid/eventSubscriptions"
+}
+
+------------------
+
+$endpoint=$(az eventgrid topic show --name $topicname -g gridResourceGroup --query "endpoint" --output tsv)
+$key=$(az eventgrid topic key list --name $topicname -g gridResourceGroup --query "key1" --output tsv)
+
+  https://wtw-placements.westus2-1.eventgrid.azure.net/api/events
+  FFsQas79OPUm+VpPOpfjqbjcf11EjpBvWI9N1X7gYHU=
+------------------
+
+$event='[ {"id": "'"$RANDOM"'", "eventType": "recordInserted", "subject": "myapp/vehicles/motorcycles", "eventTime": "'`date +%Y-%m-%dT%H:%M:%S%z`'", "data":{ "make": "Ducati", "model": "Monster"},"dataVersion": "1.0"} ]'
+curl -X POST -H "aeg-sas-key: $key" -d "$event" $endpoint
+
+
+=================
+
+https://docs.microsoft.com/en-us/azure/event-grid/custom-event-quickstart
+
+az group create --name eventGridResourceGroup --location westeurope
+az provider register --namespace Microsoft.EventGrid
+
+topicname="wtw-placements"
+az eventgrid topic create --name $topicname -l westeurope -g eventGridResourceGroup
+
+{
+  "endpoint": "https://wtw-placements.westeurope-1.eventgrid.azure.net/api/events",
+  "id": "/subscriptions/d1f29f5c-f98c-4136-b105-e70ad7a29358/resourceGroups/eventGridResourceGroup/providers/Microsoft.EventGrid/topics/wtw-placements",
+  "location": "westeurope",
+  "name": "wtw-placements",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "eventGridResourceGroup",
+  "tags": null,
+  "type": "Microsoft.EventGrid/topics"
+}
+
+
+
+
